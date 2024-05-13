@@ -1,0 +1,186 @@
+body{
+    background: linear-gradient(red,white);
+    background-repeat: no-repeat
+}
+main{
+    height: 100vh;
+}
+h1{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.pokedex{
+    height: 500px;
+    width: 330px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+.top-left{
+    height: 40%;
+    width: 100%;
+    background-color: red;
+    border-radius: 5px;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.screen{
+    margin-top: 1.5%;
+    width: 95%;
+    height: 95%;
+    background-color: rgb(189, 189, 189);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.poke-img{
+    aspect-ratio: 1/2;
+    width: 75%;
+    height: 90%;
+}
+#poke-name{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+#types{
+    width: 160px;
+    height: 25px;
+    position: absolute;
+    top: 120px;
+    right: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.type{
+    width: 47%;
+    text-transform: capitalize;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.bottom-right{
+    margin-top: 2px;
+    height: 60%;
+    width: 100%;
+    background-color: red;
+    border-radius: 5px;
+    border: 1px black solid;
+}
+.search{
+    width: 90%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#search-input{
+    width: 65%;
+    border-radius: 5px;
+}
+#search-button{
+    width: 30%;
+    border-radius: 10px;
+}
+.stats{
+    height: 80%;
+    width: 95%;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.stat{
+    width: 49%;
+    height: 23%;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.stat p{
+    height: 50%;
+    font-size: 20px;
+}
+.stat-name{
+    background-color: gray;
+    border-radius: 10px;
+    padding-top: 5px;
+    text-transform: capitalize;
+}
+
+
+
+/* ////////ALL TYPES WILL GO HERE/////////////////////// */
+
+.normal{
+    background: linear-gradient(gray,white);
+}
+.fire{
+    background: linear-gradient(rgb(235, 55, 0),white);
+}
+.water{
+    background: linear-gradient(rgb(4, 0, 233),white);
+}
+.electric{
+    background: linear-gradient(rgb(238, 255, 0),white);
+}
+.grass{
+    background: linear-gradient(rgb(0, 255, 13),white);
+}
+.ice{
+    background: linear-gradient(rgba(0, 204, 255, 0.514),white);
+}
+.fighting{
+    background: linear-gradient(rgb(255, 10, 10),white);
+}
+.poison{
+    background: linear-gradient(rgb(151, 0, 139),white);
+}
+.ground{
+    background: linear-gradient(rgb(124, 66, 0),white);
+}
+.flying{
+    background: linear-gradient(rgb(60, 138, 255),white);
+}
+.psychic{
+    background: linear-gradient(rgb(255, 0, 234),white);
+}
+.bug{
+    background: linear-gradient(rgb(166, 255, 0),white);
+}
+.rock{
+    background: linear-gradient(rgb(116, 79, 0),white);
+}
+.ghost{
+    background: linear-gradient(rgb(33, 0, 46),white);
+    color: white;
+}
+.dragon{
+    background: linear-gradient(rgb(48, 0, 136),white);
+    color: white;
+}
+.dark{
+    background: linear-gradient(rgb(27, 27, 27),white);
+    color: white;
+}
+.steel{
+    background: linear-gradient(rgb(155, 155, 155),white);
+}
+.fairy{
+    background: linear-gradient(rgb(255, 187, 244),white);
+}

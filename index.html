@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex App</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<main>
+    <h1>Pokémon Search App</h1>
+    <div class="pokedex">
+        <div class="top-left">
+            <div class="screen">
+                <img src="./pokeball.png" alt="Pokeball" class="poke-img" id="sprite">
+                <p id="poke-name"><span id="pokemon-id"></span> <span id="pokemon-name"></span></p>
+                <div id="types"></div>
+            </div>
+        </div>
+        <div class="bottom-right">
+            <div class="search">
+            <input type="text" id="search-input" required>
+            <button id="search-button">Search</button>
+        </div>
+            <div class="stats">
+                <div class="stat">
+                    <p class="stat-name">Weight</p>
+                    <p id="weight">0</p>
+                </div>
+                <div class="stat">
+                    <p class="stat-name">Height</p>
+                    <p id="height">0</p>
+                </div>
+                <div class="stat">
+                    <p class="stat-name">HP</p>
+                    <p id="hp">0</p>
+                </div>
+                <div class="stat">
+                    <p class="stat-name">Attack</p>
+                    <p id="attack">0</p>
+                </div>
+                <div class="stat">
+                    <p class="stat-name">Defense</p>
+                    <p id="defense">0</p>
+                </div>
+                <div class="stat">
+                    <p class="stat-name">Special Attack</p>
+                    <p id="special-attack">0</p>
+                </div>
+                <div class="stat">
+                    <p class="stat-name">Special-defense</p>
+                    <p id="special-defense">0</p>
+                </div>
+                <div class="stat">
+                    <p class="stat-name">Speed</p>
+                    <p id="speed">0</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</main>
+</body>
+</html>
